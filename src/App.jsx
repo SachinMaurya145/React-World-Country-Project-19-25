@@ -6,8 +6,7 @@ import Contact from './pages/Contact';
 import Country from './pages/Country';
 import AppLayout from './components/layout/AppLayout';
 import ErrorPage from './pages/ErrorPage';
-
-
+import "./App.css";
 
 const App = () => {
 

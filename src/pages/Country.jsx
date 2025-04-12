@@ -2,7 +2,7 @@ import React from 'react'
 
 const Country = () => {
   return (
-    <div>Country</div>
+    <h1 style={{color:"red" , backgroundColor:"white"}}> This  is a Country </h1>
   )
 }
 
