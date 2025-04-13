@@ -9,7 +9,11 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
 
-
+const footerIcon = {
+  IoCallSharp : <IoCallSharp/>,
+  TbMailPlus : <TbMailPlus/>,
+    MdPlace : <MdPlace/>,
+  }
 
     return (
         <footer className="footer-section">
@@ -18,7 +22,7 @@ const Footer = () => {
               const { icon, title, details } = curData;
               return (
                 <div className="footer-contact" key={index}>
-                  {/* <div className="icon">{footerIcon[icon]}</div> */}
+                  <div className="icon">{footerIcon[icon]}</div>
                   <div className="footer-contact-text">
                     <p>{title}</p>
                     <p>{details}</p>
@@ -34,7 +38,7 @@ const Footer = () => {
                 <div className="copyright-text">
                   <p>
                     Copyright &copy; 2024, All Right Reserved
-                    <NavLink to="https://thapatechnical.shop/" target="_blank">
+                    <NavLink to=" " target="_blank">
                        The Real IRON MAN
                     </NavLink>
                   </p>

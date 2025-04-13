@@ -134,7 +134,7 @@ nav ul {
 }
 
 /* media queries  */
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 600px) {
   .menu-web {
     display: none;
   }
@@ -221,7 +221,7 @@ nav ul {
   gap: 3.2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .gradient-cards {
     grid-template-columns: 1fr;
   }
